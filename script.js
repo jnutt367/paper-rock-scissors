@@ -39,7 +39,7 @@ function playRound(playerSelection) {
     // Announce winner if one player reaches 5 points
     if (playerScore === 5 || computerScore === 5) {
         const winner = playerScore === 5 ? "Player 1" : "Nemesis Enforcer";
-        resultsDiv.textContent += `\n${winner} wins the game!`;
+        resultsDiv.textContent += `\n${winner} wins the game! Refresh to start again`;
         // Disable buttons to prevent further plays
         document.querySelectorAll('button').forEach(button => {
             button.disabled = true;
