@@ -53,3 +53,4 @@ document.querySelectorAll('button').forEach(button => {
         playRound(button.textContent);
     });
 });
+
