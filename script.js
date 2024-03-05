@@ -32,11 +32,11 @@ function playGame() {
 
     for (let i = 0; i < 5; i++) {
         // Prompt user for input
-        let playerSelection = prompt("Enter your choice (Rock, Paper, or Scissors):");
+        let playerSelection = prompt("Choose your weapon!!  (Rock, Paper, or Scissors):");
 
         // Validate user input
         while (!['rock', 'paper', 'scissors'].includes(playerSelection.toLowerCase())) {
-            playerSelection = prompt("Invalid choice! Please enter Rock, Paper, or Scissors:");
+            playerSelection = prompt("Come on! You know how this works, Please enter Rock, Paper, or Scissors:");
         }
 
         // Get computer's choice
